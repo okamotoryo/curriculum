@@ -3,10 +3,19 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .box1{
     width:400px;
     height: 100px;
     background-color:#141f40;
+}
+#child1{
+    display: inline-block;
+    width: 40px;
+    height: 60px;
+    background-color: #a9004b;
+    position: absolute; top: 15px; left: 15px;
+left:10px;
 }
 .box2{
     width: 150px;
@@ -16,32 +25,30 @@
 .items2{
     width: 250px;
     height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.iitems3{
-    width: 150px;
-    height: 150px;
 }
 .box3{
     width: 150px;
     height: 50px;
     background-color: #dbd400;
+    float: left;
 }
 .box4{
     width: 150px;
     height: 100px;
     background-color: #0093b7;
+    float: left;
 }
 .box5{
     width: 100px;
     height: 150px;
     background-color: #ff9e6b;
+    float: right;
 }
 .box6{
     width: 250px;
     height: 100px;
     background-color: #8c2727;
+    float: left;
 }
 .box7{
     width: 400px;
@@ -49,59 +56,6 @@
     background-color: #d98d30;
 }
 
-/* レスポンシブ767px */
-@media screen and (max-width: 767px) {
-    .items{
-        width: 300px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-.box1{
-    width:300px;
-    height: 100px;
-    background-color:#141f40;
-}
-.box2{
-    width: 100px;
-    height: 250px;
-    background-color: #80bfa8;
-}
-.items2{
-    width: 200px;
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.iitems3{
-    width: 125px;
-    height: 150px;
-}
-.box3{
-    width: 125px;
-    height: 50px;
-    background-color: #dbd400;
-}
-.box4{
-    width: 125px;
-    height: 100px;
-    background-color: #0093b7;
-}
-.box5{
-    width: 75px;
-    height: 150px;
-    background-color: #ff9e6b;
-}
-.box6{
-    width: 200px;
-    height: 100px;
-    background-color: #8c2727;
-}
-.box7{
-    width: 300px;
-    height: 100px;
-    background-color: #d98d30;
-}
-}
 
 /* レスポンシブ479px */
 @media screen and (max-width: 479px) {
@@ -109,9 +63,7 @@
         width: 150px;
     }
     .items2{
-        width: 150px;
         height: 350px;
-        display: flex;
     }
 .box1{
     width:150px;
@@ -127,25 +79,21 @@
     width: 150px;
     height: 50px;
     background-color: #dbd400;
-    order: 2;
 }
 .box4{
     width: 150px;
     height: 100px;
     background-color: #0093b7;
-    order: 3;
 }
 .box5{
     width: 150px;
     height: 100px;
     background-color: #ff9e6b;
-    order: 1;
 }
 .box6{
     width: 150px;
     height: 100px;
     background-color: #8c2727;
-    order: 4;
 }
 .box7{
     width: 150px;
