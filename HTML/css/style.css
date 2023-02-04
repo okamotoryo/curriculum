@@ -1,0 +1,145 @@
+.items{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    width:400px;
+    height: 100px;
+    background-color:#141f40;
+}
+.box1a{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    outline: 10px solid #ffff;
+    outline-offset: -10px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 130px;
+}
+.box1b{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    outline: 10px solid #ffff;
+    outline-offset: -10px;
+    float: right;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+.box1c{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    outline: 10px solid #ffff;
+    outline-offset: -10px;
+    float: right;
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+.box2{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+.items2{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+.box5{
+    width: 130px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffff;
+    position: relative;
+    top: 40px; right: 50px;
+    float: right;
+}
+.box5a{
+    width: 130px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffff;
+    position: relative;
+    top: 50px; right: 50px;
+    float: right;
+}
+.box5b{
+    width: 130px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffff;
+    position: relative;
+    top: 60px; right: 50px;
+    float: right;
+}
+.box7{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+
+
+/* レスポンシブ479px */
+@media screen and (max-width: 479px) {
+    .items{
+        width: 200px;
+    }
+    .items2{
+        width: 200px;
+        height: 200px;
+    }
+.box1{
+    width:200px;
+    height: 200px;
+    background-color:#141f40;
+}
+.boxflex{
+    width: 60px;
+    position:absolute;
+    right: -70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box1a{
+    right: 70px;
+}
+.box1b{
+    top: 70px;
+    right: 70px;
+}
+.box1c{
+    top: 120px;
+    left: 50px;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: #80bfa8;
+}
+.box5{
+    top: 20px;
+    right: 30px;
+}
+.box5a{
+    top: 30px;
+    right: 30px;
+}
+.box5b{
+    top: 40px;
+    right: 30px;
+}
+.box7{
+    width: 200px;
+    height: 100px;
+    background-color: #d98d30;
+}
+}
